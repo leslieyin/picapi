@@ -2,10 +2,10 @@
 const ALLOW_OUTPUT = false; // 修改以开启
 const NOT_FOUND_IMG = "https://i.loli.net/2020/08/17/J7ZU2VAHPQTbcy8.png";
 
-if (file_exists('../url.csv')) {
-    $url = file('../url.csv', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+if (file_exists('../bing.csv')) {
+    $url = file('../bing.csv', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 } else {
-    $url = file('https://' . $_SERVER['HTTP_HOST'] . '/url.csv', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+    $url = file('https://' . $_SERVER['HTTP_HOST'] . '/bing.csv', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 }
 
 $id         = $_REQUEST['id'];

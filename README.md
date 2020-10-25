@@ -11,8 +11,8 @@
 
 | 路径            | 说明                                   |
 | --------------- | -------------------------------------- |
-| ./url.csv       | 务必一行一个 url，不要输入不完整的 url |
-| ./api/index.php | 修改 ALLOW_OUTPUT 以开启服务器输出     |
+| ./bing.csv       | 务必一行一个 url，不要输入不完整的 url |
+| ./api/bing.php | 修改 ALLOW_OUTPUT 以开启服务器输出     |
 
 ## 部署到 Vercel
 
@@ -30,7 +30,7 @@ Nginx 参照以下配置：
 ```nginx
 location / {
         if (!-e $request_filename) {
-            rewrite  ^(\w)*\.(?:jpg|jpeg|png|gif|bmp|webp)$  /api/index.php?id=$1  last;
+            rewrite  ^(\w)*\.(?:jpg|jpeg|png|gif|bmp|webp)$  /api/bing.php?id=$1  last;
         }
 }
 ```

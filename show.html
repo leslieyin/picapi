@@ -64,7 +64,7 @@
         </footer>
 
         <script>
-            $.get('./url.csv', function (data) {
+            $.get('./bing.csv', function (data) {
                 data.split(/\r\n|\r|\n/)
                     .filter(e => e.length > 2)
                     .forEach((item, index) => {
