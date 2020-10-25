@@ -7,9 +7,9 @@
 
 ## 实验地址(部署到 vercel):
 
-https://random-picture.vercel.app/(原作者)
+原作者：  https://random-picture.vercel.app/
 
-https://picapi.vercel.app/_(本人)
+本人：  https://picapi.vercel.app/
 
 ### 注意:
 
