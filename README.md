@@ -5,9 +5,10 @@
 
 [https://github.com/Crazy-White/Random-Picture/](https://github.com/Crazy-White/Random-Picture/)
 
-## 实验地址:
+## 实验地址(部署到 vercel):
 
-[https://random-picture.vercel.app/](https://random-picture.vercel.app/)_(部署到 vercel)_
+https://random-picture.vercel.app/(原作者)
+https://picapi.vercel.app/_(本人)
 
 ### 注意:
 
