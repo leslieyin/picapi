@@ -11,6 +11,7 @@
     {
       "src": "/(\\w*)\\.(?:jpg|jpeg|png|gif|bmp|webp)",
       "dest": "/api/bing.php?id=$1"
+	  "dest": "/api/daohang.php?id=$1"
     }
   ]
 }
